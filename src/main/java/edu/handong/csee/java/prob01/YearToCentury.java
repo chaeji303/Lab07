@@ -8,7 +8,8 @@ public class YearToCentury {
 	 * When user input year, this program tells century that the year belongs to. 
 	 * I love a java programming class!!! I want to be a good java programmer!
 	 * 
-	 * @author Jihye Chae 2018.04.05
+	 * @author Jihye Chae 
+	 * 2018.04.05
 	 */
 	int year; // define variable
 
@@ -19,7 +20,8 @@ public class YearToCentury {
 		 * This method defines a constructor.
 		 * It is initialize via a constructor.
 		 * 
-		 * @author Jihye Chae 2018.04.05
+		 * @author Jihye Chae 
+		 * 2018.04.05
 		 */
 	}
 
@@ -28,7 +30,8 @@ public class YearToCentury {
 		/**
 		 * This method is for converting.
 		 * 
-		 * @author Jihye Chae 2018.04.05
+		 * @author Jihye Chae 
+		 * 2018.04.05
 		 */
 	}
 
