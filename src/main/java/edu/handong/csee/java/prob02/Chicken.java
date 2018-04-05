@@ -53,28 +53,28 @@ public class Chicken { //class
 
 	public void set_name(String name)
 	{
-		this.name = name; //
+		this.name = name; //call constructor
 	}
 
 	public void set_price(double price)
 	{
-		this.price = price; //
+		this.price = price; //call constructor
 	}
 
 	public void set_stars(int stars)
 	{
-		this.stars = stars; //
+		this.stars = stars; //call constructor
 	}
 
 
 	public static void main(String[] args) {
-		Chicken menu1 = new Chicken("Cheese_mustard", 16000.00, 5); //
-		Chicken menu2 = new Chicken("Honey_mustard", 16000.00, 5); //
-		Chicken menu3 = new Chicken("Spicy_mustard", 16000.00, 1); //
+		Chicken menu1 = new Chicken("Cheese_mustard", 16000.00, 5); //chicken menu 
+		Chicken menu2 = new Chicken("Honey_mustard", 16000.00, 5); //chicken menu
+		Chicken menu3 = new Chicken("Spicy_mustard", 16000.00, 1); //chicken menu
 
-		menu1.set_stars(3); //
-		menu2.set_stars(4); //
-		menu3.set_stars(1); //
+		menu1.set_stars(3); //input
+		menu2.set_stars(4); //input
+		menu3.set_stars(1); //input
 
 		System.out.println(menu1.get_name() + "'s rating is " + menu1.get_stars()); // print out message
 		System.out.println(menu2.get_name() + "'s rating is " + menu2.get_stars()); // print out message
